@@ -2,19 +2,19 @@
 
 Treasure Quest is a Java-based grid pathfinding project developed for the Data Structures course. The goal is to find the shortest safe path from the starting point S to the treasure E inside a dungeon grid while avoiding walls and monster-monitored areas. The project uses Breadth-First Search (BFS) to guarantee the shortest path in an unweighted grid and applies multiple data structures to efficiently model the environment and constraints.
 ## Team
-TURKI SALEM HUSSAIN AZAYBI - 202223860
-MOHAMMED SALAH ALFARAJ - 202323090
+1. TURKI AZAYBI - 202223860
+2. MOHAMMED ALFARAJ - 202323090
 
-##Problem Overview
+## Problem Overview
 The dungeon is represented as a grid where:
 
-S = Start position
+S=Start position
 
-E = Treasure
+E=Treasure
 
-# = Wall
+#=Wall
 
-. = Open path
+.=Open path
 
 Monsters monitor surrounding cells based on their movement range, making those cells unsafe. The player must reach the treasure using the shortest possible safe path or output IMPOSSIBLE if no path exists.
 
